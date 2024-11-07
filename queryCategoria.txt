@@ -1,0 +1,11 @@
+*[_type == "category_type"]{
+  category_name,
+  products[]{
+    image{
+      asset->{
+        url
+      }
+    },
+    description
+  }
+}

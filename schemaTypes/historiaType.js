@@ -9,6 +9,5 @@ export const historiaType = defineType({
       name: 'historia',
       type: 'string',
     }),
-   
   ],
 })
