@@ -9,3 +9,10 @@
     description
   }
 }
+
+*[_type == 'recentes']{
+  recent_products[]{
+    description,
+    image{asset->{url}}
+  }
+}
